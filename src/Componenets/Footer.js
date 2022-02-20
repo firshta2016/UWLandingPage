@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Card, Button, Container, Col, Row } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (

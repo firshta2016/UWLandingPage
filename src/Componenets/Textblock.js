@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button, Container, Col, Row } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 
 const Textblock = () => {
   return (

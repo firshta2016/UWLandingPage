@@ -1,4 +1,3 @@
-import "./App.css";
 import HeroArea from "./Componenets/HeroArea";
 import Cardgrid from "./Componenets/Cardgrid";
 import ContactForm from "./Componenets/ContactForm";

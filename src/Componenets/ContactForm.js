@@ -13,17 +13,17 @@ const ContactForm = () => {
                 <Form>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>First Name</Form.Label>
-                    <Form.Control type="text" />
+                    <Form.Control type="text" required />
                   </Form.Group>
 
                   <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Last Name</Form.Label>
-                    <Form.Control type="text" />
+                    <Form.Control type="text" required />
                   </Form.Group>
 
                   <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Label>Email</Form.Label>
-                    <Form.Control type="text" />
+                    <Form.Control type="text" required />
                   </Form.Group>
 
                   <Form.Group className="mb-3" controlId="formBasicPassword">
@@ -57,4 +57,4 @@ const StyledWrapper = styled.div`
   }
 `;
 
-//https://www.youtube.com/watch?v=pnsnFkx8OyU
+//https://www.youtube.com/watch?v=VHeHlQQ8khM

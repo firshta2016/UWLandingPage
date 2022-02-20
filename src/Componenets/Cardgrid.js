@@ -1,7 +1,5 @@
 import React from "react";
-import { Card, Button, Container, Col, Row } from "react-bootstrap";
-import image from "../Image/image.jpeg";
-import styled from "styled-components";
+import { Card, Container, Col, Row } from "react-bootstrap";
 
 const Cardgrid = () => {
   const cardInfo = [
