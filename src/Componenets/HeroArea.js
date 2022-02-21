@@ -8,17 +8,16 @@ const HeroArea = () => {
       <div className="jumbotron jumbotron-fluid p-0">
         <Container fluid={true}>
           <Row
-            className="justify-content-center py-5
+            className="justify-content-center p-5
         "
           >
-            <Col sm={8} md={6} lg={4}>
+            <Col>
               <h2 className="display-1 font-weight-bolder">
                 I am a Photographer
               </h2>
               <h3 className="display-4 font-weight-light">
                 Contact me for more information
               </h3>
-              <Button>Hire me</Button>
             </Col>
           </Row>
         </Container>
@@ -29,8 +28,10 @@ const HeroArea = () => {
 
 export default HeroArea;
 const StyledWrapper = styled.div`
-  h2,
+  h2 {
+    font-size: calc(1em + 4vw);
+  }
   h3 {
-    font-size: 8vw;
+    font-size: calc(1em + 3vw);
   }
 `;
