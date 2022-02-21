@@ -58,7 +58,7 @@ const Cardgrid = () => {
   const rows = productChuncks.map((productChunck, index) => {
     const productsCol = productChunck.map((cardInfo, index) => {
       return (
-        <Col>
+        <Col sm={12} md={8} lg={4}>
           <Product
             title={cardInfo.title}
             image={cardInfo.image}

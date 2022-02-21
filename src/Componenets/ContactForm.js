@@ -8,9 +8,9 @@ const ContactForm = () => {
   const { handleChange, values, handleSubmit, errors } = useForm(validate);
   return (
     <StyledWrapper>
-      <Container>
+      <Container fluid>
         <Row className="justify-content-center">
-          <Col md={8} className="pl-5">
+          <Col sm={12} md={8} lg={4} className="pl-5">
             <Card className="mt-5">
               <Card.Body className="cardbody">
                 <Form onSubmit={handleSubmit}>

@@ -9,7 +9,7 @@ const HeroArea = () => {
           className="justify-content-center py-5
         "
         >
-          <Col md={8} sm={12}>
+          <Col sm={12} md={8} lg={4}>
             <h2 className="display-1 font-weight-bolder">
               I am a Photographer
             </h2>
